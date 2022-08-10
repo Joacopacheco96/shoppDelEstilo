@@ -1,0 +1,6 @@
+.imgHero{width: max-content;}
+.nav {display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.dark{background-color: black;}
