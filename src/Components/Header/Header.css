@@ -1,10 +1,14 @@
-.divContainer{background-image: url('../Images/header.jpg');
-background-size: contain;
-background-position: center;
-background-repeat: no-repeat;
-background-position-y: 55%;}
-
 .txtHeader{background-color: transparent;}
-
-.btnContainer{margin-top: 20vh;
-margin-bottom: 5vh;}
+.btnContainer{margin-bottom: 5vh;}
+.divContainer{
+    margin-top: 5%;
+    height: 50%;
+    position: relative;
+}
+.imgHeader{
+    width: 100%;
+    position: fixed;
+    top: 40%;
+    left: 0%;
+    opacity: 0.3;
+}

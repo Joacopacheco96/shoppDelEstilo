@@ -3,6 +3,7 @@ import Nav from './Components/Nav/Nav.js';
 import Header from './Components/Header/Header.js'
 import Hero from './Components/Hero/Hero.jsx'
 import Album from './Components/Album/Album.jsx'
+import Footer from './Components/Footer/Footer.jsx'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Header/>
     <Hero/>
     <Album/>
+    <Footer/>
     
     </div>
   );

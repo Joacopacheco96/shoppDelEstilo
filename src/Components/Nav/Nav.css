@@ -1,1 +1,22 @@
-.black{background-color: rgb(23, 23, 23);}
+.navContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.logoContainer{
+    display: flex;
+    justify-content: center;
+}
+.logo { 
+    width: 30%;
+    border-radius: 20%;
+}
+.btn{border: transparent}
+.instagram{
+    border: 3px solid #f7af01;
+    background-color: #ee02cf;}
+.whatsapp{
+    border: 3px solid white;
+    background-color: green;}

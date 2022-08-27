@@ -3,4 +3,6 @@
 flex-direction: row;
 justify-content: center;
 }
-.dark{background-color: black;}
+.dark{
+    width: 100%;
+    background-color: black;}

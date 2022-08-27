@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.imgLogo{
+    width: 10%;}
+.white{color: white;}
