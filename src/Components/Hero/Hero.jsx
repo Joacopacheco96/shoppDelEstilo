@@ -6,7 +6,7 @@ import './Hero.css'
 
 const Hero = () => {
   return (
-
+    <div class='dark'>
 
 <div class="dark container col-xxl-8 px-4 py-5">
     <div class="dark row flex-lg-row-reverse align-items-center g-5 py-5">
@@ -17,14 +17,13 @@ const Hero = () => {
         <h1 class="dark display-5 fw-bold lh-1 mb-3">Sobre Nosotros</h1>
         <p class="dark lead">Somos Shopping del estilo, dia a dia tenemos las ultimas tendencias entorno al cuidado del cabello y estetica femenina y masculina, pero sin descuidar de que tu visita sea un momento de relax y tranquilidad agradable.</p>
         <div class="dark d-grid gap-2 d-md-flex justify-content-md-start">
-          {/* <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button> */}
         </div>
       </div>
     </div>
   </div>
 
 
+    </div>
   )
 }
 

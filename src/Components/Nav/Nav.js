@@ -13,10 +13,10 @@ function Nav(){
         </a>
 
         <div class="navContainer">
-          <button  class="nav-link px-2 text-secondary">Home</button>
-          <button  class="nav-link px-2 text-white">Sobre Nosotros</button>
-          <button  class="nav-link px-2 text-white">Nuestros trabajos</button>
-          <button  class="nav-link px-2 text-white">Contacto</button>
+          <button  class="btn nav-link px-2 text-white">Home</button>
+          <button  class="btn nav-link px-2 text-white">Sobre Nosotros</button>
+          <button  class="btn nav-link px-2 text-white">Nuestros trabajos</button>
+          <button  class="btn nav-link px-2 text-white">Contacto</button>
         </div>
 
 

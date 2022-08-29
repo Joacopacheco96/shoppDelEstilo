@@ -13,10 +13,10 @@ const Album = () => {
     <div class="col-lg-6 col-md-8 mx-auto">
       <h1 class="fw-light">Algunos de nuestros trabajos</h1>
       <p class="lead text-muted">Algunos ejemplos de trabajos realizados en nuestro estudio y que hemos compartido en nuestras redes.</p>
-      <p>
-        <div  class="btn instagram btn-primary my-2">Nuestro instagram</div>
-        <div  class="btn facebook btn-secondary my-2">Nuestro Facebook</div>
-      </p>
+      <div className='btnContainer2'>
+        <a type="button" target='_blank' rel='noreferrer' href='https://www.instagram.com/shopping_del_estilo/'  class="btn instagram btn-primary">Nuestro Instagram</a>        
+        <a type="button" target='_blank' rel='noreferrer' href='https://m.facebook.com/shoppingdelestilo'  class="btn facebook btn-secondary">Nuestro Facebook</a>
+      </div>
     </div>
   </div>
 </section>

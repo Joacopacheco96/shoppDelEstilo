@@ -2,9 +2,19 @@
   box-sizing: border-box;
   margin: 0%;
   padding: 0%;
-  background-color: black;
+  background-color: #282c34;
+  
 }
-p,h1,h2, span{color: whitesmoke;}
+.imgHeader{
+  width: 100%;
+  position: fixed;
+  top: 40%;
+  left: 0%;
+  z-index: 0;
+  opacity: 0.4;
+}
+
+p,h1,h2,h3, span{color: whitesmoke;}
 
 .App {
   text-align: center;

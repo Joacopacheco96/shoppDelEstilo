@@ -1,8 +1,10 @@
 .container{
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 .imgLogo{
     width: 10%;}
 .white{color: white;}
+.icon{width: 100%;}
+.icon{width: fit-content;}
