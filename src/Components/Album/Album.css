@@ -1,14 +1,28 @@
-.instagram{
-    border: solid #f7af01;
-    width: 45%;
-    background-color: #ee02cf;}
-.facebook{
-    background-color: #1877f2;
-    border: solid white;
-    width: 45%;
+.instagram {
+  border: solid #f7af01;
+  width: 45%;
+  background-color: #ee02cf;
 }
-.btnContainer2{
-    display: flex;
-    justify-content: space-between;
-    opacity: 0.9;
+.facebook {
+  background-color: #1877f2;
+  border: solid white;
+  width: 45%;
+}
+.btnContainer2 {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.9;
+}
+.albumContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.iframe {
+  border: none;
+  overflow: hidden;
+  width: 765px;
+  height: 510px;
+  opacity: 0.9;
+  background-color: black;
 }

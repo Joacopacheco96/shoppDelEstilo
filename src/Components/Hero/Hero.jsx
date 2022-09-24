@@ -1,17 +1,18 @@
 import React from 'react'
-
+import Scroll from 'react-scroll'
 import imgHero from '../Images/imgHero.png'
 import './Hero.css'
 
 
 const Hero = () => {
+let Element= Scroll.Element;
   return (
-    <div class='dark'>
+    <Element name='Hero' class='dark'>
 
 <div class="dark container col-xxl-8 px-4 py-5">
     <div class="dark row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class=" dark imgHero col-10 col-sm-8 col-lg-6">
-        <img src={imgHero} class="imgHero d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy" width="700" height="500"/>
+        <img src={imgHero} class="imgHero d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy" width="350" height="250"/>
       </div>
       <div class="dark col-lg-6">
         <h1 class="dark display-5 fw-bold lh-1 mb-3">Sobre Nosotros</h1>
@@ -23,7 +24,7 @@ const Hero = () => {
   </div>
 
 
-    </div>
+    </Element>
   )
 }
 
