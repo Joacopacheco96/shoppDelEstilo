@@ -1,12 +1,42 @@
-import React from "react";
+import {React, useState} from "react";
 import "./Footer.css";
 import Facebook from "../Images/facebook.png";
 import Instagram from "../Images/instagram.png";
 import Scroll from "react-scroll";
 
 const Footer = () => {
+  const [mail, setmail] = useState("");
   let Link = Scroll.Link;
   let Element= Scroll.Element;
+
+ const handleMail = (e) => {
+   setmail(e.target.value);
+ }
+function send(){
+  fetch(`http://localhost:3001/mailRegister`, {
+method: "POST",
+headers: {
+  'Content-Type': 'application/json',
+  'Accept': 'application/json'
+},
+body: JSON.stringify({"user":{
+  "mail":mail,
+  "regDate":Date(Date.now()),
+  }
+}),
+})
+.then(response => response.json())
+        .then((result) => {
+            if(result.success===true){
+                alert(`Usuario registrado con exito, le enviaremos un mail a ${result.mail} para confirmar su registro`);
+                setmail("");
+            }else{
+                alert("Usuario no ingresado correctamente, recargue la pagina e intentelo nuevamente")
+            }
+        
+        });
+      }
+
 
   return (
     <footer class="container py-5">
@@ -80,12 +110,14 @@ const Footer = () => {
                 Email address
               </label>
               <input
+                value={mail}
                 id="newsletter1"
                 type="text"
                 class="form-control"
                 placeholder="Email address"
+                onChange={handleMail}
               />
-              <button class="btn btn-primary" type="button">
+              <button onClick={send} class="btn btn-primary" type="button">
                 Subscribe
               </button>
             </div>
