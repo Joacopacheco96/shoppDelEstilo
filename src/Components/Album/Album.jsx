@@ -39,11 +39,24 @@ const Album = () => {
             </div>
           </div>
         </section>
-        <div class="justify-content-center album albumContainer">
-<iframe title="ig" src="https://snapwidget.com/embed/1011389" class="justify-content-center iframe snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no"></iframe>          </div>
+        <div class="justify-content-center albumContainer">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="linkIg"
+            href="https://www.instagram.com/shopping_del_estilo/"
+          />
+          <iframe
+            title="ig"
+            src="https://snapwidget.com/embed/1011841"
+            class="justify-content-center iframe snapwidget-widget"
+            allowtransparency="true"
+            frameborder="0"
+            scrolling="no"
+          ></iframe>{" "}
         </div>
+      </div>
     </Element>
   );
 };
-
 export default Album;
