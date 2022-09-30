@@ -45,7 +45,9 @@ const Album = () => {
             rel="noreferrer"
             className="linkIg"
             href="https://www.instagram.com/shopping_del_estilo/"
-          />
+          >
+            ig
+          </a>
           <iframe
             title="ig"
             src="https://snapwidget.com/embed/1011841"
